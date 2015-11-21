@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -8,15 +6,15 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Welcome to PyNLPl’s documentation! &mdash; PyNLPl 0.6.5 documentation</title>
+    <title>Welcome to PyNLPl’s documentation! &mdash; PyNLPl 0.7.3.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '',
-        VERSION:     '0.6.5',
+        URL_ROOT:    './',
+        VERSION:     '0.7.3.1',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -26,7 +24,7 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="search" title="Search" href="search.html" />
-    <link rel="top" title="PyNLPl 0.6.5 documentation" href="#" />
+    <link rel="top" title="PyNLPl 0.7.3.1 documentation" href="#" />
     <link rel="next" title="Common Functions" href="common.html" /> 
   </head>
   <body>
@@ -42,7 +40,7 @@
         <li class="right" >
           <a href="common.html" title="Common Functions"
              accesskey="N">next</a> |</li>
-        <li><a href="#">PyNLPl 0.6.5 documentation</a> &raquo;</li> 
+        <li><a href="#">PyNLPl 0.7.3.1 documentation</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -67,6 +65,8 @@
 <li class="toctree-l3"><a class="reference internal" href="folia.html#index">Index</a></li>
 <li class="toctree-l3"><a class="reference internal" href="folia.html#obtaining-list-of-elements">Obtaining list of elements</a></li>
 <li class="toctree-l3"><a class="reference internal" href="folia.html#select-method">Select method</a></li>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#navigating-a-document">Navigating a document</a></li>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#structure-annotation-types">Structure Annotation Types</a></li>
 <li class="toctree-l3"><a class="reference internal" href="folia.html#common-attributes">Common attributes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="folia.html#annotations">Annotations</a></li>
 </ul>
@@ -77,10 +77,21 @@
 <li class="toctree-l3"><a class="reference internal" href="folia.html#adding-structure">Adding structure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="folia.html#adding-annotations">Adding annotations</a></li>
 <li class="toctree-l3"><a class="reference internal" href="folia.html#adding-span-annotation">Adding span annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#deleting-annotation">Deleting annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#copying-annotations">Copying annotations</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="folia.html#searching-in-a-folia-document">Searching in a FoLiA document</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#corpus-query-language-cql">Corpus Query Language (CQL)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#folia-query-language-fql">FoLiA Query Language (FQL)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="folia.html#streaming-reader">Streaming Reader</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="folia.html#higher-order-annotations">Higher-Order Annotations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#text-markup">Text Markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#features">Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#alternatives">Alternatives</a></li>
+<li class="toctree-l3"><a class="reference internal" href="folia.html#corrections">Corrections</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="folia.html#module-pynlpl.formats.folia">API Reference</a></li>
@@ -130,9 +141,7 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Welcome to PyNLPl&#8217;s documentation!</a><ul>
-</ul>
-</li>
+<li><a class="reference internal" href="#">Welcome to PyNLPl&#8217;s documentation!</a></li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 
@@ -173,12 +182,12 @@
         <li class="right" >
           <a href="common.html" title="Common Functions"
              >next</a> |</li>
-        <li><a href="#">PyNLPl 0.6.5 documentation</a> &raquo;</li> 
+        <li><a href="#">PyNLPl 0.7.3.1 documentation</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">
         &copy; Copyright 2013, Maarten van Gompel.
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
     </div>
   </body>
 </html>
